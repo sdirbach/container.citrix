@@ -54,6 +54,7 @@ RUN dnf install -y \
    jq \
    moreutils \
    envsubst \
+   procps \
     --exclude=gstreamer1-plugins-bad-free-devel
 
 # Install Ctrix Workspace
